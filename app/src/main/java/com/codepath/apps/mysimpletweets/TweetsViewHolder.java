@@ -12,12 +12,14 @@ public class TweetsViewHolder {
     TextView tvBody;
     TextView tvUserName;
     TextView tvFullName;
+    TextView tvCreateAt;
     ImageView ivProfileImage;
 
     public TweetsViewHolder(View view) {
         tvBody = (TextView)view.findViewById(R.id.tvBody);
         tvUserName = (TextView)view.findViewById(R.id.tvUserName);
         tvFullName = (TextView)view.findViewById(R.id.tvFullName);
+        tvCreateAt = (TextView)view.findViewById(R.id.tvCreatedAt);
         ivProfileImage = (ImageView)view.findViewById(R.id.ivProfileImage);
     }
 }
